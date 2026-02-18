@@ -6,7 +6,7 @@ on:
   issues:
     types: [opened, edited, deleted]
   issue_comment:
-    types: [edited]
+    types: [open, edited, deleted]
 
 jobs:
   job1:
